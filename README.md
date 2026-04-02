@@ -1,4 +1,3 @@
-t
 # 🐞 Selenium Automation Bug Report Project
 
 ## 📌 Overview
