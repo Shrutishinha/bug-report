@@ -1,6 +1,4 @@
-# bug-report
-on jira
-Observed significant drop in model performance after splitting dataset.
+t.
 # 🐞 Selenium Automation Bug Report Project
 
 ## 📌 Overview
