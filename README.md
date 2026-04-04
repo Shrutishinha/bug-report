@@ -1,4 +1,4 @@
-<!-- 🔥 ANIMATED HEADER -->ji
+<!-- 🔥 ANIMATED HEADER -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C2FF&height=220&section=header&text=Selenium%20Automation%20Project&fontSize=38&fontAlignY=35&animation=fadeIn"/>
 
