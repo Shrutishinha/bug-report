@@ -1,38 +1,39 @@
-<!-- 🔥 ANIMATED HEADER -->
+<!-- ✈️ ANIMATED HEADER -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C2FF&height=220&section=header&text=Selenium%20Automation%20Project&fontSize=38&fontAlignY=35&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=220&section=header&text=Airline%20Bug%20Reporting%20System&fontSize=38&fontAlignY=35&animation=fadeIn"/>
 
-<!-- ⚡ TYPING ANIMATION -->
+<!-- ✈️ TYPING ANIMATION -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Automation+Testing+Framework;Bug+Reporting+System;QA+Engineering+Project;Built+with+Selenium" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C9FF&center=true&vCenter=true&width=700&lines=Airline+Booking+Automation;Bug+Reporting+System;QA+Testing+Project;Selenium+WebDriver+Framework" />
 </p>
-
-<!-- 🌊 TOP DIVIDER -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:0077FF&height=90&section=footer"/>
 
 ---
 
-# 🐞 Selenium Automation Bug Report Project
+# ✈️ Airline Bug Reporting & Automation Testing Project
 
 ## 📌 Overview
 
-This project demonstrates **Automated UI Testing and Bug Reporting** using Selenium WebDriver.
-It simulates a real-world QA workflow including test execution, failure detection, screenshot capture, and structured bug documentation.
+This project simulates a **real-world airline booking system testing workflow** using Selenium.
+
+It automates key user actions like:
+
+* Flight search ✈️
+* Booking process 🧾
+* Login validation 🔐
+
+👉 Along with **automated bug detection, screenshot capture, and reporting**
 
 ---
 
 ## 🎯 Why This Project?
 
-✔ Real-world automation testing workflow
-✔ Demonstrates QA + SDET skills
-✔ Uses Page Object Model (POM)
-✔ Structured bug reporting system
+✔ Real-world airline booking scenario
+✔ Demonstrates **QA + Automation + Debugging skills**
+✔ Covers **critical user flows (login, search, booking)**
+✔ Strong portfolio project for **SDET / QA / Data roles**
 
 ---
-
-<!-- 🎥 DEMO SECTION -->
 
 ## 🎥 Demo
 
@@ -40,20 +41,16 @@ It simulates a real-world QA workflow including test execution, failure detectio
 
 ---
 
-<!-- ⚡ FLOW BADGES -->
-
 ## 🧪 Test Execution Flow
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20Website-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Enter%20Invalid%20Data-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Click%20Login-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Error%20Captured-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Open%20Airline%20Website-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Search%20Flight-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Enter%20Invalid%20Details-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Booking%20Fails-black?style=for-the-badge"/>
 </p>
 
 ---
-
-<!-- 🐛 BUG WORKFLOW IMAGE -->
 
 ## 🐛 Bug Reporting Workflow
 
@@ -63,11 +60,12 @@ It simulates a real-world QA workflow including test execution, failure detectio
 
 ## 🚀 Features
 
-✔ Automated UI Testing using Selenium
-✔ Cross-browser testing (Chrome, Firefox)
+✔ Automated airline booking testing
+✔ Flight search validation
+✔ Login & payment error testing
 ✔ Screenshot capture on failure 📸
 ✔ Page Object Model (POM) design
-✔ Structured bug reporting
+✔ Structured bug reports
 
 ---
 
@@ -83,44 +81,43 @@ It simulates a real-world QA workflow including test execution, failure detectio
 
 ## 📂 Project Structure
 
-```bash id="y7e9e2"
-Selenium-Bug-Report/
+```bash
+Airline-Bug-Report/
 │── src/
 │   ├── tests/
+│   │   ├── loginTest
+│   │   ├── flightSearchTest
+│   │   └── bookingTest
 │   ├── pages/
+│   │   ├── LoginPage
+│   │   ├── SearchPage
+│   │   └── BookingPage
 │   └── utils/
 │── reports/
 │── screenshots/
 │── README.md
-│── requirements.txt / pom.xml
 ```
 
 ---
 
-<!-- 🌊 SECTION DIVIDER -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:0077FF&height=80&section=header"/>
-
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
-
-```bash id="k0xkzj"
-git clone https://github.com/your-username/selenium-bug-report.git
-cd selenium-bug-report
+```bash
+git clone https://github.com/your-username/airline-bug-report.git
+cd airline-bug-report
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 #### Python:
 
-```bash id="3l9n9s"
+```bash
 pip install -r requirements.txt
 ```
 
 #### Java:
 
-```bash id="c2o4xr"
+```bash
 mvn clean install
 ```
 
@@ -128,83 +125,72 @@ mvn clean install
 
 ## ▶️ Run Tests
 
-#### Python:
-
-```bash id="1dnl7o"
-pytest tests/
+```bash
+mvn test
 ```
 
-#### Java:
+OR
 
-```bash id="bmx9l3"
-mvn test
+```bash
+pytest tests/
 ```
 
 ---
 
 ## 🧪 Sample Test Case
 
-**Test:** Login Functionality
+**Test:** Flight Booking Failure
 
 **Steps:**
 
-1. Open website
-2. Enter invalid credentials
-3. Click login
+1. Open airline website
+2. Search flight Delhi → Mumbai
+3. Enter invalid passenger details
+4. Proceed to booking
 
-**Expected Result:** Error message displayed
-**Actual Result:** Application crashes ❌
+**Expected Result:** Proper validation message
+**Actual Result:** Booking crashes ❌
 
 ---
 
 ## 🐛 Bug Report Example
 
-| Field              | Description                                         |
-| ------------------ | --------------------------------------------------- |
-| Bug ID             | BUG-001                                             |
-| Title              | Login page crashes on invalid input                 |
-| Severity           | High                                                |
-| Priority           | High                                                |
-| Environment        | Chrome, Windows 10                                  |
-| Steps to Reproduce | 1. Open site → 2. Enter wrong data → 3. Click login |
-| Expected Result    | Proper error message                                |
-| Actual Result      | Application crashes                                 |
-| Status             | Open                                                |
+| Field           | Description                                |
+| --------------- | ------------------------------------------ |
+| Bug ID          | AIR-001                                    |
+| Title           | Booking fails on invalid passenger details |
+| Severity        | Critical                                   |
+| Priority        | High                                       |
+| Module          | Booking System                             |
+| Steps           | Search → Enter invalid data → Book         |
+| Expected Result | Error message shown                        |
+| Actual Result   | System crash                               |
+| Status          | Open                                       |
 
 ---
 
 ## 📸 Screenshots
 
-Screenshots are automatically saved in `/screenshots`.
+Captured automatically in `/screenshots`
 
 <p align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="300"/>
-</p>
-
----
-
-<!-- ⚡ STATS -->
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="300"/>
 </p>
 
 ---
 
 ## 📈 Future Improvements
 
-* 🔄 CI/CD Integration (GitHub Actions)
-* 📊 Allure Reports
-* ⚡ Parallel Execution
+* 🔄 CI/CD (GitHub Actions)
+* 📊 Allure Reporting
+* ⚡ Parallel Testing
 * ☁️ Cloud Testing (BrowserStack)
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork and contribute 🚀
+Pull requests are welcome 🚀
 
 ---
 
@@ -213,10 +199,6 @@ Feel free to fork and contribute 🚀
 MIT License
 
 ---
-
-<!-- 🌊 FOOTER -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C2FF&height=120&section=footer"/>
 
 ## ⭐ Support
 
