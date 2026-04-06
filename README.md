@@ -186,6 +186,13 @@ mvn test
 
 # ✈️ Airline Bug Reporting & Automation Project
 
+<!-- 🔥 TYPING EFFECT -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=✈️+Airline+Booking+Automation;🐞+Bug+Tracking+System;⚡+Selenium+Framework;🚀+QA+Engineering+Project" />
+</p>
+
+
 ## 📌 Overview
 
 This project demonstrates **automation testing of an airline booking system** using Selenium WebDriver.
