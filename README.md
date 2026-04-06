@@ -1,19 +1,4 @@
 
-
-<!-- 🔥 TYPING EFFECT -->
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=✈️+Airline+Booking+Automation;🐞+Bug+Tracking+System;⚡+Selenium+Framework;🚀+QA+Engineering+Project" />
-</p>
-
-<!-- 🌈 PROFILE VIEWS COUNTER -->
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20Views&color=00c9ff&style=for-the-badge"/>
-</p>
-
----
-
 # ✈️ Airline Bug Reporting & Automation System
 
 <!-- 💫 GLITCH GIF -->
@@ -184,12 +169,13 @@ mvn test
 
 # ✈️ Airline Bug Reporting & Automation Project
 
-<!-- 🔥 TYPING EFFECT -->
+<!-- 💫 GLITCH GIF -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=✈️+Airline+Booking+Automation;🐞+Bug+Tracking+System;⚡+Selenium+Framework;🚀+QA+Engineering+Project" />
+  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="400"/>
 </p>
 
+---
 
 ## 📌 Overview
 
