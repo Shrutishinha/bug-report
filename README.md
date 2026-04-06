@@ -1,123 +1,118 @@
 <!-- ✈️ ANIMATED HEADER -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=220&section=header&text=Airline%20Bug%20Reporting%20System&fontSize=38&fontAlignY=35&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=250&section=header&text=Airline%20Automation%20%26%20Bug%20Reporting&fontSize=40&fontAlignY=35&animation=fadeIn&fontColor=ffffff"/>
 
-<!-- ✈️ TYPING ANIMATION -->
+<!-- 🔥 TYPING EFFECT -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C9FF&center=true&vCenter=true&width=700&lines=Airline+Booking+Automation;Bug+Reporting+System;QA+Testing+Project;Selenium+WebDriver+Framework" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=✈️+Airline+Booking+Automation;🐞+Bug+Tracking+System;⚡+Selenium+Framework;🚀+QA+Engineering+Project" />
+</p>
+
+<!-- 🌈 PROFILE VIEWS COUNTER -->
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20Views&color=00c9ff&style=for-the-badge"/>
 </p>
 
 ---
 
-# ✈️ Airline Bug Reporting & Automation Testing Project
+# ✈️ Airline Bug Reporting & Automation System
 
-## 📌 Overview
-
-This project simulates a **real-world airline booking system testing workflow** using Selenium.
-
-It automates key user actions like:
-
-* Flight search ✈️
-* Booking process 🧾
-* Login validation 🔐
-
-👉 Along with **automated bug detection, screenshot capture, and reporting**
-
----
-
-## 🎯 Why This Project?
-
-✔ Real-world airline booking scenario
-✔ Demonstrates **QA + Automation + Debugging skills**
-✔ Covers **critical user flows (login, search, booking)**
-✔ Strong portfolio project for **SDET / QA / Data roles**
-
----
-
-## 🎥 Demo
-
-![Demo](screenshots/demo.gif)
-
----
-
-## 🧪 Test Execution Flow
+<!-- 💫 GLITCH GIF -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20Airline%20Website-blue?style=for-the-badge"/>
+  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="400"/>
+</p>
+
+---
+
+## 🧠 Project Highlights
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Automation-Selenium-blueviolet?style=for-the-badge&logo=selenium"/>
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java"/>
+  <img src="https://img.shields.io/badge/Framework-TestNG-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Testing-QA%20Project-green?style=for-the-badge"/>
+</p>
+
+---
+
+<!-- 🌊 DIVIDER -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00C9FF,100:92FE9D&height=2"/>
+
+---
+
+## 🎥 Live Demo
+
+<p align="center">
+  <img src="screenshots/demo.gif" width="600"/>
+</p>
+
+---
+
+## ⚡ Execution Flow (Animated Style)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20Website-blue?style=for-the-badge&logo=google-chrome"/>
   <img src="https://img.shields.io/badge/Search%20Flight-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Enter%20Invalid%20Details-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Booking%20Fails-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Enter%20Invalid%20Data-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Crash%20Detected-black?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🐛 Bug Reporting Workflow
+## 🐛 Bug Lifecycle
 
-<img src="https://miro.medium.com/max/1400/1*QK5xN4hZlKp2k1pG1Hj6VQ.png" width="100%"/>
+<p align="center">
+  <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="400"/>
+</p>
 
 ---
 
 ## 🚀 Features
 
-✔ Automated airline booking testing
-✔ Flight search validation
-✔ Login & payment error testing
-✔ Screenshot capture on failure 📸
-✔ Page Object Model (POM) design
-✔ Structured bug reports
+✨ Automated Airline Booking Testing
+✨ Smart Bug Detection
+✨ Screenshot Capture 📸
+✨ POM Architecture
+✨ Cross Browser Testing
+✨ Real-time Failure Logs
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Language: Java / Python
-* Automation Tool: Selenium WebDriver
-* Framework: TestNG / PyTest
-* Build Tool: Maven
-* Drivers: ChromeDriver / GeckoDriver
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,python,selenium,maven,git,vscode"/>
+</p>
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-Airline-Bug-Report/
+Airline-Automation/
 │── src/
-│   ├── tests/
-│   │   ├── loginTest
-│   │   ├── flightSearchTest
-│   │   └── bookingTest
-│   ├── pages/
-│   │   ├── LoginPage
-│   │   ├── SearchPage
-│   │   └── BookingPage
-│   └── utils/
+│── tests/
+│── pages/
 │── reports/
 │── screenshots/
-│── README.md
 ```
 
 ---
 
-## ⚙️ Setup Instructions
+<!-- 🌊 ANIMATED DIVIDER -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:0077FF&height=80&section=header"/>
+
+---
+
+## ⚙️ Setup
 
 ```bash
 git clone https://github.com/your-username/airline-bug-report.git
 cd airline-bug-report
-```
-
-### Install Dependencies
-
-#### Python:
-
-```bash
-pip install -r requirements.txt
-```
-
-#### Java:
-
-```bash
 mvn clean install
 ```
 
@@ -129,77 +124,57 @@ mvn clean install
 mvn test
 ```
 
-OR
-
-```bash
-pytest tests/
-```
-
 ---
 
-## 🧪 Sample Test Case
-
-**Test:** Flight Booking Failure
-
-**Steps:**
-
-1. Open airline website
-2. Search flight Delhi → Mumbai
-3. Enter invalid passenger details
-4. Proceed to booking
-
-**Expected Result:** Proper validation message
-**Actual Result:** Booking crashes ❌
-
----
-
-## 🐛 Bug Report Example
-
-| Field           | Description                                |
-| --------------- | ------------------------------------------ |
-| Bug ID          | AIR-001                                    |
-| Title           | Booking fails on invalid passenger details |
-| Severity        | Critical                                   |
-| Priority        | High                                       |
-| Module          | Booking System                             |
-| Steps           | Search → Enter invalid data → Book         |
-| Expected Result | Error message shown                        |
-| Actual Result   | System crash                               |
-| Status          | Open                                       |
-
----
-
-## 📸 Screenshots
-
-Captured automatically in `/screenshots`
+## 🐞 Sample Bug Report
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="300"/>
+  <img src="https://media.giphy.com/media/26BRrSvJUa0crqw4E/giphy.gif" width="300"/>
+</p>
+
+| ID     | Title         | Severity | Status |
+| ------ | ------------- | -------- | ------ |
+| AIR-01 | Booking crash | Critical | Open   |
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## 📈 Future Improvements
+## 📈 Contribution Graph
 
-* 🔄 CI/CD (GitHub Actions)
-* 📊 Allure Reporting
-* ⚡ Parallel Testing
-* ☁️ Cloud Testing (BrowserStack)
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome 🚀
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=tokyo-night"/>
+</p>
 
 ---
 
-## 📜 License
+## 🧩 Future Scope
 
-MIT License
+🚀 CI/CD Pipeline
+⚡ Parallel Execution
+☁️ Cloud Testing
+📊 Allure Reports
 
 ---
 
-## ⭐ Support
+## 🤝 Connect With Me
 
-If you like this project, give it a ⭐ on GitHub!
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/></a>
+</p>
+
+---
+
+<!-- 🌊 FOOTER -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=150&section=footer"/>
+
+## ⭐ Don't forget to star the repo!
