@@ -1,6 +1,4 @@
-<!-- HEADER --><!-- ✈️ ANIMATED HEADER -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=250&section=header&text=Airline%20Automation%20%26%20Bug%20Reporting&fontSize=40&fontAlignY=35&animation=fadeIn&fontColor=ffffff"/>
 
 <!-- 🔥 TYPING EFFECT -->
 
