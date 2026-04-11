@@ -46,13 +46,7 @@
 
 ---
 
-## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,selenium,maven,git,vscode"/>
-</p>
-
----
 
 ## 📂 Project Structure
 
@@ -209,6 +203,12 @@ It simulates real-world QA scenarios such as:
 * Framework: TestNG
 * Build Tool: Maven
 
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,python,selenium,maven,git,vscode"/>
+</p>
+
+---
 ---
 
 ## 📂 Project Structure
