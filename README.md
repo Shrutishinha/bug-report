@@ -25,15 +25,6 @@
 
 ---
 
-## ⚡ Execution Flow (Animated Style)
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Website-blue?style=for-the-badge&logo=google-chrome"/>
-  <img src="https://img.shields.io/badge/Search%20Flight-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Enter%20Invalid%20Data-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Crash%20Detected-black?style=for-the-badge"/>
-</p>
-
 ---
 
 ## 🐛 Bug Lifecycle
@@ -200,6 +191,16 @@ It simulates real-world QA scenarios such as:
 ✔ Page Object Model (POM) design
 
 ---
+
+## ⚡ Execution Flow (Animated Style)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20Website-blue?style=for-the-badge&logo=google-chrome"/>
+  <img src="https://img.shields.io/badge/Search%20Flight-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Enter%20Invalid%20Data-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Crash%20Detected-black?style=for-the-badge"/>
+</p>
+
 
 ## 🛠️ Tech Stack
 
