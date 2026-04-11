@@ -9,16 +9,7 @@
 
 ---
 
-## 🧠 Project Highlights
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Automation-Selenium-blueviolet?style=for-the-badge&logo=selenium"/>
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java"/>
-  <img src="https://img.shields.io/badge/Framework-TestNG-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Testing-QA%20Project-green?style=for-the-badge"/>
-</p>
-
----
 
 <!-- 🌊 DIVIDER -->
 
@@ -187,6 +178,16 @@ It simulates real-world QA scenarios such as:
 * Flight search
 * Booking failures
 * Bug reporting with screenshots
+
+---
+## 🧠 Project Highlights
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Automation-Selenium-blueviolet?style=for-the-badge&logo=selenium"/>
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java"/>
+  <img src="https://img.shields.io/badge/Framework-TestNG-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Testing-QA%20Project-green?style=for-the-badge"/>
+</p>
 
 ---
 
