@@ -1,5 +1,5 @@
 
-# ✈️ Airline Bug Reporting & Automation Systemh
+# ✈️ Airline Bug Reporting & Automation System
 
 <!-- 💫 GLITCH GIF -->
 
