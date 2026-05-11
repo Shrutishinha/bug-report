@@ -139,11 +139,6 @@ mvn test
 ## ⭐ Don't forget to star the repo!
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,100:26D0CE&height=200&section=header&text=Airline%20Automation%20Testing&fontSize=35&fontColor=ffffff"/>
-
----
-
-# ✈️ Airline Bug Reporting & Automation Project
 
 ## 📌 Overview
 
