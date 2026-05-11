@@ -297,10 +297,4 @@ mvn test
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=150&section=footer"/>
 
-## ⭐ Don't forget to star the repo!
 
-
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,100:26D0CE&height=120&section=footer"/>
