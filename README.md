@@ -1,244 +1,173 @@
-
 # ✈️ Airline Bug Reporting & Automation System
 
-<!-- 💫 GLITCH GIF -->
+<p align="center">
+  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="500"/>
+</p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="400"/>
+
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+  ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+  ![TestNG](https://img.shields.io/badge/TestNG-FF6F00?style=for-the-badge)
+  ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+
 </p>
 
 ---
 
+# 📌 Overview
 
+The **Airline Bug Reporting & Automation System** is a Selenium-based automation testing project designed to simulate real-world QA workflows for airline reservation systems.
 
-## 📌 Overview
+This project validates critical airline functionalities such as:
 
-This project demonstrates **automation testing of an airline booking system** using Selenium WebDriver.
+- ✈️ Flight Search
+- 🔐 Login Authentication
+- 🧾 Booking Validation
+- 🐞 Bug Detection & Reporting
+- 📸 Screenshot Capture on Failure
+- 📊 Test Execution Logging
 
-It simulates real-world QA scenarios such as:
-
-* Login validation
-* Flight search
-* Booking failures
-* Bug reporting with screenshots
+The framework follows the **Page Object Model (POM)** architecture for scalability and maintainability.
 
 ---
-## 🧠 Project Highlights
+
+# 🧠 Key Highlights
+
+✅ Selenium WebDriver Automation  
+✅ Java + TestNG Framework  
+✅ Maven Build Management  
+✅ Page Object Model (POM)  
+✅ Cross-Browser Ready  
+✅ Screenshot Capture on Failure  
+✅ Reusable Utility Functions  
+✅ Automated Test Reporting  
+
+---
+
+# 🏗️ Project Architecture
+
+```text
+Airline-Automation-System
+│
+├── src
+│   ├── main/java
+│   │   ├── pages
+│   │   ├── utilities
+│   │   └── base
+│   │
+│   └── test/java
+│       ├── tests
+│       └── listeners
+│
+├── screenshots
+├── reports
+├── test-output
+├── pom.xml
+└── README.md
+```
+
+---
+
+# ⚙️ Tech Stack
+
+| Technology | Usage |
+|------------|------|
+| Java | Programming Language |
+| Selenium WebDriver | Browser Automation |
+| TestNG | Test Framework |
+| Maven | Dependency Management |
+| Git & GitHub | Version Control |
+| ChromeDriver | Browser Execution |
+
+---
+
+# 🔄 Automation Workflow
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Automation-Selenium-blueviolet?style=for-the-badge&logo=selenium"/>
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java"/>
-  <img src="https://img.shields.io/badge/Framework-TestNG-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Testing-QA%20Project-green?style=for-the-badge"/>
+
+![Open](https://img.shields.io/badge/Open%20Website-0078D7?style=for-the-badge)
+![Search](https://img.shields.io/badge/Search%20Flight-6A0DAD?style=for-the-badge)
+![Validate](https://img.shields.io/badge/Validate%20Booking-228B22?style=for-the-badge)
+![Capture](https://img.shields.io/badge/Capture%20Bug-DC143C?style=for-the-badge)
+
 </p>
 
 ---
 
-## 🎯 Features
+# 🧪 Sample Test Scenario
 
-✔ Automated UI Testing using Selenium
-✔ Flight search & booking validation
-✔ Login error handling
-✔ Screenshot capture on failure 📸
-✔ Page Object Model (POM) design
+## ✅ Test Case: Invalid Login Validation
+
+### Steps:
+1. Open airline booking website
+2. Enter invalid username/password
+3. Click Login button
+
+### Expected Result:
+System should display proper validation message.
+
+### Actual Result:
+Application throws authentication failure.
+
+### Status:
+❌ Failed
+
+---
+
+# 🐛 Bug Report Example
+
+| Field | Details |
+|------|---------|
+| Bug ID | AIR-001 |
+| Module | Authentication |
+| Severity | High |
+| Priority | Critical |
+| Environment | Chrome / Windows |
+| Description | Login fails for invalid credentials |
+| Expected | Validation message |
+| Actual | System crash |
+| Status | Open |
 
 ---
 
-## ⚡ Execution Flow (Animated Style)
+# 📸 Screenshots
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Website-blue?style=for-the-badge&logo=google-chrome"/>
-  <img src="https://img.shields.io/badge/Search%20Flight-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Enter%20Invalid%20Data-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Crash%20Detected-black?style=for-the-badge"/>
-</p>
-
-
-## 🛠️ Tech Stack
-
-* Language: Java
-* Automation Tool: Selenium WebDriver
-* Framework: TestNG
-* Build Tool: Maven
-
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,selenium,maven,git,vscode"/>
-</p>
-
----
----
-
-## 📂 Project Structure
+Store execution screenshots inside:
 
 ```bash
-Airline-Bug-Report/
-│── src/
-│   ├── test/java/
-│   ├── main/java/
-│   └── pages/
-│── screenshots/
-│── pom.xml
-│── README.md
+/screenshots
 ```
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/your-username/airline-bug-report.git
-cd airline-bug-report
-```
-
----
-
-### 2. Install Dependencies
-
-```bash
-mvn clean install
-```
-
----
-
-### 3. Run Tests
-
-```bash
-mvn test
-```
-
----
-
-## 🧪 Sample Test Case
-
-**Test:** Login with invalid credentials
-
-**Steps:**
-
-1. Open airline website
-2. Enter wrong username/password
-3. Click login
-
-**Expected Result:** Error message displayed
-**Actual Result:** Login fails / system error
-
----
-
-## 🐛 Bug Report Example
-
-| Field           | Description                          |
-| --------------- | ------------------------------------ |
-| Bug ID          | AIR-001                              |
-| Title           | Login fails with invalid credentials |
-| Severity        | High                                 |
-| Priority        | High                                 |
-| Steps           | Open → Enter invalid → Click login   |
-| Expected Result | Proper error message                 |
-| Actual Result   | Error / crash                        |
-| Status          | Open                                 |
-
----
-
-## 📸 Screenshots
-
-👉 Add your screenshots inside `/screenshots` folder
 
 Example:
 
-```
-screenshots/login_error.png
-```
-
----
-
-## 📈 Future Improvements
-
-* CI/CD Integration (GitHub Actions)
-* Allure Reports
-* Parallel Execution
-* Cloud Testing (BrowserStack)
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome!
-
----
-
-## 📜 License
-
-MIT License
-
-<!-- 🌊 DIVIDER -->
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00C9FF,100:92FE9D&height=2"/>
-
----
-
-## 🎥 Live Demo
-
-<p align="center">
-  <img src="screenshots/demo.gif" width="600"/>
-</p>
-
----
-
----
-
-## 🐛 Bug Lifecycle
-
-<p align="center">
-  <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="400"/>
-</p>
-
----
-
-## 🚀 Features
-
-✨ Automated Airline Booking Testing
-✨ Smart Bug Detection
-✨ Screenshot Capture 📸
-✨ POM Architecture
-✨ Cross Browser Testing
-✨ Real-time Failure Logs
-
----
-
-
-
-## 📂 Project Structure
-
 ```bash
-Airline-Automation/
-│── src/
-│── tests/
-│── pages/
-│── reports/
-│── screenshots/
+screenshots/login_failure.png
 ```
 
 ---
 
-<!-- 🌊 ANIMATED DIVIDER -->
+# 🚀 Getting Started
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:0077FF&height=80&section=header"/>
-
----
-
-## ⚙️ Setup
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/your-username/airline-bug-report.git
 cd airline-bug-report
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
 mvn clean install
 ```
 
 ---
 
-## ▶️ Run Tests
+## 3️⃣ Execute Tests
 
 ```bash
 mvn test
@@ -246,55 +175,96 @@ mvn test
 
 ---
 
-## 🐞 Sample Bug Report
+# 📊 Reporting
 
-<p align="center">
-  <img src="https://media.giphy.com/media/26BRrSvJUa0crqw4E/giphy.gif" width="300"/>
-</p>
+The framework supports:
 
-| ID     | Title         | Severity | Status |
-| ------ | ------------- | -------- | ------ |
-| AIR-01 | Booking crash | Critical | Open   |
-
----
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight&hide_border=true"/>
-</p>
+- ✅ TestNG Reports
+- ✅ Console Logs
+- ✅ Screenshot Reports
+- 🔜 Allure Reports
+- 🔜 Extent Reports
 
 ---
 
-## 📈 Contribution Graph
+# 🌟 Future Enhancements
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=tokyo-night"/>
-</p>
-
----
-
-## 🧩 Future Scope
-
-🚀 CI/CD Pipeline
-⚡ Parallel Execution
-☁️ Cloud Testing
-📊 Allure Reports
+- 🚀 CI/CD Integration using GitHub Actions
+- ☁️ BrowserStack Cloud Execution
+- ⚡ Parallel Test Execution
+- 📈 Allure Reporting Dashboard
+- 🤖 AI-based Defect Prediction
+- 🧪 API Automation Integration
 
 ---
 
-## 🤝 Connect With Me
+# 🛡️ Design Pattern Used
+
+## 📌 Page Object Model (POM)
+
+Benefits:
+- Reusable code
+- Better maintainability
+- Reduced duplication
+- Scalable framework design
+
+---
+
+# 📷 Demo Preview
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/></a>
+  <img src="screenshots/demo.gif" width="700"/>
 </p>
 
 ---
 
-<!-- 🌊 FOOTER -->
+# 📈 GitHub Stats
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=150&section=footer"/>
+<p align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true"/>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 🤝 Contribution
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Submit Pull Request
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👩‍💻 Author
+
+## Shruti Sinha
+
+<p align="center">
+
+<a href="https://github.com/your-username">
+  <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://linkedin.com/in/your-linkedin">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A2980,50:26D0CE,100:00C9FF&height=140&section=footer"/>
+</p>
