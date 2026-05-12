@@ -13,7 +13,7 @@
 
 ## 📌 Overview
 
-This project demonstrates **automation testing of an airline booking system** using Selenium WebDriver.huoijh
+This project demonstrates **automation testing of an airline booking system** using Selenium WebDriver.
 
 It simulates real-world QA scenarios such as:
 
