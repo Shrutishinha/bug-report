@@ -22,7 +22,7 @@ The **Airline Bug Reporting & Automation System** is a Selenium-based automation
 
 This project validates critical airline functionalities such as:
 
-- ✈️ Flight Search
+- ✈️ Flight Searchs
 - 🔐 Login Authentication
 - 🧾 Booking Validation
 - 🐞 Bug Detection & Reporting
