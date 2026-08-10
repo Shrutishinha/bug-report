@@ -1,249 +1,167 @@
-<div align="center">
+enhance
 
 # ✈️ Airline Bug Reporting & Automation System
 
-### 🚀 Selenium-Based Test Automation Framework for Airline Reservation Systems
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
-![Selenium](https://img.shields.io/badge/Selenium-Automation-green?style=for-the-badge&logo=selenium)
-![TestNG](https://img.shields.io/badge/TestNG-Testing-red?style=for-the-badge)
-![Maven](https://img.shields.io/badge/Maven-Build-blue?style=for-the-badge&logo=apachemaven)
-![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?style=for-the-badge&logo=github)
 
-*A scalable Selenium automation framework that validates core airline booking functionalities while following industry-standard QA practices.*
 
-</div>
+
+
 
 ---
 
-# 📖 Overview
+# 📌 Overview
 
-The **Airline Bug Reporting & Automation System** is a Selenium WebDriver automation framework developed to simulate **real-world Quality Assurance (QA) workflows** for airline reservation applications.
+The **Airline Bug Reporting & Automation System** is a Selenium-based automation testing project designed to simulate real-world QA workflows for airline reservation systems.
 
-The project automates critical user journeys including authentication, flight search, booking validation, and bug reporting while generating execution logs and screenshots for failed test cases.
+This project validates critical airline functionalities such as:
 
-Designed using the **Page Object Model (POM)** architecture, the framework promotes modularity, maintainability, and reusability.
+- ✈️ Flight Searchs
+- 🔐 Login Authentication
+- 🧾 Booking Validation
+- 🐞 Bug Detection & Reporting
+- 📸 Screenshot Capture on Failure
+- 📊 Test Execution Logging
 
----
-
-# ✨ Features
-
-- ✈️ Flight Search Automation
-- 🔐 Login Authentication Testing
-- 🎫 Booking Validation
-- ❌ Negative Test Scenarios
-- 📸 Automatic Screenshot Capture on Failure
-- 📊 Test Execution Reports
-- 📝 Bug Reporting Structure
-- ♻️ Reusable Utility Classes
-- 📁 Page Object Model (POM)
-- 🌐 Cross-Browser Ready
-- ⚡ Maven Build Support
+The framework follows the **Page Object Model (POM)** architecture for scalability and maintainability.
 
 ---
 
-# 🎯 Objectives
+# 🧠 Key Highlights
 
-- Automate repetitive airline testing workflows.
-- Improve software quality through regression testing.
-- Detect UI and functional defects early.
-- Generate reproducible bug reports.
-- Reduce manual testing effort.
-
----
-
-# 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| ☕ Java | Programming Language |
-| 🌐 Selenium WebDriver | Browser Automation |
-| 🧪 TestNG | Test Execution Framework |
-| 📦 Maven | Dependency Management |
-| 🖥️ ChromeDriver | Browser Driver |
-| 📂 Git & GitHub | Version Control |
-| 📝 Log Reports | Execution Logging |
+✅ Selenium WebDriver Automation
+✅ Java + TestNG Framework
+✅ Maven Build Management
+✅ Page Object Model (POM)
+✅ Cross-Browser Ready
+✅ Screenshot Capture on Failure
+✅ Reusable Utility Functions
+✅ Automated Test Reporting
 
 ---
 
-# 🏗️ Project Structure
+# 🏗️ Project Architecture
 
 ```text
-Airline-Bug-Reporting-System
+Airline-Automation-System
 │
 ├── src
-│   ├── main
-│   │   └── java
-│   │       ├── base
-│   │       ├── pages
-│   │       └── utilities
+│   ├── main/java
+│   │   ├── pages
+│   │   ├── utilities
+│   │   └── base
 │   │
-│   └── test
-│       └── java
-│           ├── tests
-│           └── listeners
+│   └── test/java
+│       ├── tests
+│       └── listeners
 │
 ├── screenshots
 ├── reports
 ├── test-output
 ├── pom.xml
-├── testng.xml
 └── README.md
 ```
 
 ---
 
-# ⚙️ Framework Architecture
+# ⚙️ Tech Stack
 
-```text
-                 TestNG
-                    │
-                    ▼
-             Test Classes
-                    │
-                    ▼
-          Page Object Model
-                    │
-        ┌───────────┴───────────┐
-        ▼                       ▼
-   Utility Classes         Base Class
-        │                       │
-        └───────────┬───────────┘
-                    ▼
-             Selenium WebDriver
-                    │
-                    ▼
-             Airline Web Portal
-```
+| Technology         | Usage                 |
+| ------------------ | --------------------- |
+| Java               | Programming Language  |
+| Selenium WebDriver | Browser Automation    |
+| TestNG             | Test Framework        |
+| Maven              | Dependency Management |
+| Git & GitHub       | Version Control       |
+| ChromeDriver       | Browser Execution     |
 
 ---
 
 # 🔄 Automation Workflow
 
-```text
-Start Test
-      │
-      ▼
-Launch Browser
-      │
-      ▼
-Open Airline Website
-      │
-      ▼
-Execute Test Case
-      │
-      ▼
-Validate Expected Result
-      │
- ┌────┴─────┐
- │          │
-Pass      Fail
- │          │
- │      Capture Screenshot
- │          │
- └──────┬───┘
-        ▼
- Generate Report
-        │
-        ▼
-   Close Browser
-```
+
+
+
+
 
 ---
 
 # 🧪 Sample Test Scenario
 
-## ✅ Test Case: Invalid Login
+## ✅ Test Case: Invalid Login Validation
 
-### Test Steps
+### Steps:
 
-1. Launch browser
-2. Navigate to airline website
-3. Enter invalid credentials
-4. Click **Login**
-5. Validate error message
+1. Open airline booking website
+2. Enter invalid username/password
+3. Click Login button
 
-### Expected Result
+### Expected Result:
 
-The application should display a meaningful authentication error without crashing.
+System should display proper validation message.
 
-### Actual Result
+### Actual Result:
 
-Authentication failed successfully and the validation message was displayed.
+Application throws authentication failure.
 
-### Status
+### Status:
 
-✅ Passed
+❌ Failed
 
 ---
 
-# 🐞 Sample Bug Report
+# 🐛 Bug Report Example
 
-| Field | Value |
-|-------|-------|
-| Bug ID | AIR-001 |
-| Module | Login |
-| Severity | High |
-| Priority | Critical |
-| Browser | Chrome |
-| OS | Windows 11 |
-| Environment | QA |
-| Expected Result | Proper validation message |
-| Actual Result | Application crashes |
-| Status | Open |
+| Field       | Details                             |
+| ----------- | ----------------------------------- |
+| Bug ID      | AIR-001                             |
+| Module      | Authentication                      |
+| Severity    | High                                |
+| Priority    | Critical                            |
+| Environment | Chrome / Windows                    |
+| Description | Login fails for invalid credentials |
+| Expected    | Validation message                  |
+| Actual      | System crash                        |
+| Status      | Open                                |
 
 ---
 
-# 📸 Screenshot Management
+# 📸 Screenshots
 
-Failed test screenshots are automatically stored in:
+Store execution screenshots inside:
 
-```text
+```bash
 /screenshots
 ```
 
 Example:
 
-```text
-screenshots/LoginFailure_001.png
+```bash
+screenshots/login_failure.png
 ```
 
 ---
 
-# 📊 Reports
+# 🚀 Getting Started
 
-The framework supports:
+## 1️⃣ Clone Repository
 
-- ✅ TestNG Reports
-- ✅ Console Logs
-- ✅ Failure Screenshots
-- 🔜 Extent Reports
-- 🔜 Allure Reports
-- 🔜 HTML Dashboard
+```bash
+git clone https://github.com/your-username/airline-bug-report.git
+cd airline-bug-report
+```
 
 ---
 
-# 🚀 Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/your-username/Airline-Bug-Reporting-System.git
-```
-
-Move into the project
-
-```bash
-cd Airline-Bug-Reporting-System
-```
-
-Install dependencies
+## 2️⃣ Install Dependencies
 
 ```bash
 mvn clean install
 ```
 
-Run all test cases
+---
+
+## 3️⃣ Execute Tests
 
 ```bash
 mvn test
@@ -251,85 +169,69 @@ mvn test
 
 ---
 
-# 📌 Supported Test Modules
+# 📊 Reporting
 
-- ✅ Login Testing
-- ✅ Flight Search
-- ✅ Booking Validation
-- ✅ Passenger Details
-- ✅ Payment Validation
-- ✅ Error Message Verification
-- ✅ Regression Testing
+The framework supports:
+
+- ✅ TestNG Reports
+- ✅ Console Logs
+- ✅ Screenshot Reports
+- 🔜 Allure Reports
+- 🔜 Extent Reports
 
 ---
 
-# 💡 Design Pattern
+# 🌟 Future Enhancements
 
-## 📂 Page Object Model (POM)
+- 🚀 CI/CD Integration using GitHub Actions
+- ☁️ BrowserStack Cloud Execution
+- ⚡ Parallel Test Execution
+- 📈 Allure Reporting Dashboard
+- 🤖 AI-based Defect Prediction
+- 🧪 API Automation Integration
 
-### Benefits
+---
 
-- Cleaner codebase
+# 🛡️ Design Pattern Used
+
+## 📌 Page Object Model (POM)
+
+Benefits:
+
+- Reusable code
 - Better maintainability
-- High reusability
-- Easy scalability
-- Reduced code duplication
-- Improved readability
+- Reduced duplication
+- Scalable framework design
 
 ---
 
-# 📈 Future Enhancements
-
-- 🚀 GitHub Actions CI/CD
-- ☁️ BrowserStack Integration
-- 🌍 Cross-Browser Parallel Execution
-- 📊 Allure Dashboard
-- 📑 Extent Reports
-- 🧪 API Automation using Rest Assured
-- 🤖 AI-Based Defect Prediction
-- 📱 Mobile Automation with Appium
-- 🐳 Docker Support
+# 📷 Demo Preview
 
 ---
 
-# 📷 Demo
-
-> Add screenshots or GIFs of test execution here.
-
-Example:
-
-```
-assets/demo.gif
-```
+# 📈 GitHub Stats
 
 ---
 
-# 🤝 Contributing
+# 🤝 Contribution
 
 Contributions are welcome!
 
-1. Fork this repository
+1. Fork the repository
 2. Create a feature branch
-3. Commit your changes
-4. Push the branch
-5. Open a Pull Request
+3. Commit changes
+4. Submit Pull Request
 
 ---
 
 # 📜 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
-<div align="center">
+# 👩‍💻 Author
 
-## 👩‍💻 Author
+## Shruti Sinha
 
-### **Shruti Sinha**
-
-**B.Tech CSE | QA Automation | Data Analytics | Java | Selenium | SQL**
-
-⭐ If you found this project useful, don't forget to **Star** the repository!
-
-</div>
+---
