@@ -1,237 +1,88 @@
+<div align="center">
 
+<br>
 
-# ✈️ Airline Bug Reporting & Automation System
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=1800&pause=500&color=58A6FF&center=true&vCenter=true&repeat=true&width=850&height=35&lines=%5B+SYSTEM+ONLINE+%5D;%3E%3E+INITIALIZING+QA+AUTOMATION...;%3E%3E+FLIGHT+SYSTEM+UNDER+TEST;%3E%3E+BUG+DETECTION+ENGINE+ACTIVE;%3E%3E+TEST+EXECUTION+IN+PROGRESS..." alt="System Status">
 
+<br><br>
 
+# ✈️ AIRLINE
 
+# **BUG REPORTING & AUTOMATION SYSTEM**
 
+<br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:0D1117&height=4&section=header" width="85%">
 
+<br>
 
----
+### `QA AUTOMATION`  •  `SELENIUM`  •  `TESTNG`  •  `POM`
 
-# 📌 Overview
+<br>
 
-The **Airline Bug Reporting & Automation System** is a Selenium-based automation testing project designed to simulate real-world QA workflows for airline reservation systems.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=900&color=8B949E&center=true&vCenter=true&repeat=true&width=900&height=30&lines=SEARCH+%E2%9C%88%EF%B8%8F+BOOK+%E2%9C%88%EF%B8%8F+VALIDATE+%E2%9C%88%EF%B8%8F+REPORT;AUTOMATE+%E2%86%92+EXECUTE+%E2%86%92+DETECT+%E2%86%92+REPORT;FROM+TEST+CASE+TO+ACTIONABLE+BUG+REPORT" alt="Automation Workflow">
 
-This project validates critical airline functionalities such as:
+<br><br>
 
-- ✈️ Flight Searchs
-- 🔐 Login Authentication
-- 🧾 Booking Validation
-- 🐞 Bug Detection & Reporting
-- 📸 Screenshot Capture on Failure
-- 📊 Test Execution Logging
+<img src="https://img.shields.io/badge/🧪_TEST_AUTOMATION-READY-238636?style=for-the-badge&labelColor=0D1117">
+<img src="https://img.shields.io/badge/🐞_BUG_DETECTION-ACTIVE-da3633?style=for-the-badge&labelColor=0D1117">
+<img src="https://img.shields.io/badge/📸_FAILURE_CAPTURE-ENABLED-8957E5?style=for-the-badge&labelColor=0D1117">
+<img src="https://img.shields.io/badge/📊_TEST_REPORTING-ONLINE-1F6FEB?style=for-the-badge&labelColor=0D1117">
 
-The framework follows the **Page Object Model (POM)** architecture for scalability and maintainability.
+<br><br>
 
----
+<img src="https://skillicons.dev/icons?i=java,selenium,maven,git,github" alt="Technology Stack">
 
-# 🧠 Key Highlights
+<br><br>
 
-✅ Selenium WebDriver Automation
-✅ Java + TestNG Framework
-✅ Maven Build Management
-✅ Page Object Model (POM)
-✅ Cross-Browser Ready
-✅ Screenshot Capture on Failure
-✅ Reusable Utility Functions
-✅ Automated Test Reporting
+<table>
+<tr>
+<td align="center">
 
----
+**✈️ FLIGHT SYSTEM**
 
-# 🏗️ Project Architecture
+<br>
 
-```text
-Airline-Automation-System
-│
-├── src
-│   ├── main/java
-│   │   ├── pages
-│   │   ├── utilities
-│   │   └── base
-│   │
-│   └── test/java
-│       ├── tests
-│       └── listeners
-│
-├── screenshots
-├── reports
-├── test-output
-├── pom.xml
-└── README.md
-```
+`UNDER TEST`
 
----
+</td>
 
-# ⚙️ Tech Stack
+<td align="center">
 
-| Technology         | Usage                 |
-| ------------------ | --------------------- |
-| Java               | Programming Language  |
-| Selenium WebDriver | Browser Automation    |
-| TestNG             | Test Framework        |
-| Maven              | Dependency Management |
-| Git & GitHub       | Version Control       |
-| ChromeDriver       | Browser Execution     |
+**🧪 TEST ENGINE**
 
----
+<br>
 
-# 🔄 Automation Workflow
+`TESTNG + SELENIUM`
 
+</td>
 
+<td align="center">
 
+**🐞 DEFECT ENGINE**
 
+<br>
 
+`BUG DETECTION`
 
----
+</td>
 
-# 🧪 Sample Test Scenario
+<td align="center">
 
-## ✅ Test Case: Invalid Login Validation
+**📸 EVIDENCE**
 
-### Steps:
+<br>
 
-1. Open airline booking website
-2. Enter invalid username/password
-3. Click Login button
+`SCREENSHOTS + LOGS`
 
-### Expected Result:
+</td>
+</tr>
+</table>
 
-System should display proper validation message.
+<br>
 
-### Actual Result:
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161B22,50:1F6FEB,100:0D1117&height=100&section=header&reversal=true" width="100%">
 
-Application throws authentication failure.
-
-### Status:
-
-❌ Failed
-
----
-
-# 🐛 Bug Report Example
-
-| Field       | Details                             |
-| ----------- | ----------------------------------- |
-| Bug ID      | AIR-001                             |
-| Module      | Authentication                      |
-| Severity    | High                                |
-| Priority    | Critical                            |
-| Environment | Chrome / Windows                    |
-| Description | Login fails for invalid credentials |
-| Expected    | Validation message                  |
-| Actual      | System crash                        |
-| Status      | Open                                |
-
----
-
-# 📸 Screenshots
-
-Store execution screenshots inside:
-
-```bash
-/screenshots
-```
-
-Example:
-
-```bash
-screenshots/login_failure.png
-```
-
----
-
-# 🚀 Getting Started
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/airline-bug-report.git
-cd airline-bug-report
-```
-
----
-
-## 2️⃣ Install Dependencies
-
-```bash
-mvn clean install
-```
-
----
-
-## 3️⃣ Execute Tests
-
-```bash
-mvn test
-```
-
----
-
-# 📊 Reporting
-
-The framework supports:
-
-- ✅ TestNG Reports
-- ✅ Console Logs
-- ✅ Screenshot Reports
-- 🔜 Allure Reports
-- 🔜 Extent Reports
-
----
-
-# 🌟 Future Enhancements
-
-- 🚀 CI/CD Integration using GitHub Actions
-- ☁️ BrowserStack Cloud Execution
-- ⚡ Parallel Test Execution
-- 📈 Allure Reporting Dashboard
-- 🤖 AI-based Defect Prediction
-- 🧪 API Automation Integration
-
----
-
-# 🛡️ Design Pattern Used
-
-## 📌 Page Object Model (POM)
-
-Benefits:
-
-- Reusable code
-- Better maintainability
-- Reduced duplication
-- Scalable framework design
-
----
-
-# 📷 Demo Preview
-
----
-
-# 📈 GitHub Stats
-
----
-
-# 🤝 Contribution
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Submit Pull Request
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-# 👩‍💻 Author
-
-## Shruti Sinha
+</div>
 
 ---
