@@ -3,7 +3,7 @@
 <br>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=1800&pause=500&color=58A6FF&center=true&vCenter=true&repeat=true&width=850&height=35&lines=%5B+SYSTEM+ONLINE+%5D;%3E%3E+INITIALIZING+QA+AUTOMATION...;%3E%3E+FLIGHT+SYSTEM+UNDER+TEST;%3E%3E+BUG+DETECTION+ENGINE+ACTIVE;%3E%3E+TEST+EXECUTION+IN+PROGRESS..." alt="System Status">
-hihu
+
 <br><br>
 
 # ✈️ AIRLINE
