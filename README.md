@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 
-<div align="center">hi
+<div align="center">
 
 # ✈️ Airline Bug Reporting & Automation System
 
